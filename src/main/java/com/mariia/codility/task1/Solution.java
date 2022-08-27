@@ -3,31 +3,33 @@ package com.mariia.codility.task1;
 public class Solution {
 
     public static void main(String[] args) {
-        int input = 151;
+        int input = 0;
         String result = Integer.toBinaryString(input);
         System.out.println(result);
 
-        boolean oneIsFound = false;
-        int binaryGap = 0;
-        int sequenceBinaryGap = 0;
+
+        int prevMax = 0;
+        int max = 0;
+        int counter = 0;
 
         for (char position : result.toCharArray()) {
-            if (position == '1') {
-                if (!oneIsFound) {
-                    oneIsFound = true;
-                    sequenceBinaryGap = 0;
-                } else {
-                    if (sequenceBinaryGap > binaryGap) {
-                        binaryGap = sequenceBinaryGap;
-                    }
-                    sequenceBinaryGap = 0;
+            int intPosition = Integer.parseInt(String.valueOf(position));
+            if (intPosition == 0) {
+                counter++;
+                if (counter > max) {
+                    max = counter;
                 }
             } else {
-                sequenceBinaryGap += 1;
+                counter = 0;
+                prevMax = max;
             }
         }
 
-        System.out.println("Binary gap = " + binaryGap);
+        if (counter != 0) {
+            max = prevMax;
+        }
+
+        System.out.println("Binary gap = " + max);
         // return binaryGap;
     }
 }
