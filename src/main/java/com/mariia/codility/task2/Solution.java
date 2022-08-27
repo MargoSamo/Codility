@@ -1,35 +1,25 @@
 package com.mariia.codility.task2;
 
 public class Solution {
-
     public static void main(String[] args) {
-        int dano = 3;
-        String result = Integer.toBinaryString(dano);
-        System.out.println(result);
 
-        char[] num = result.toCharArray();
+        int repeatTimes = 3;
+        int[] array = {1, 2, 3, 4, 5, 6, 7};
 
-        int preMax = 0;
-        int max = 0;
-        int counter = 0;
-        boolean isFinishedWithOne = false;
+        for (int i = 0; i < repeatTimes; i++) {
+            int lastIndex = array.length - 1;
+            int b = array[lastIndex];
 
-        for(char ch:num) {
-            if (ch == '0') {
-                counter++;
-                if (counter > max) {
-                    max = counter;
-                }
-                isFinishedWithOne = false;
-            } else {
-                counter = 0;
-                preMax = max;
-                isFinishedWithOne = true;
+            for (int a = lastIndex; a > 0; a--) {
+                array[a] = array[a - 1];
             }
+
+            array[0] = b;
         }
-        if (!isFinishedWithOne) {
-            max = preMax;
+
+        for (int j : array) {
+            System.out.print(j + " ");
         }
-        System.out.println(max);
+
     }
 }
