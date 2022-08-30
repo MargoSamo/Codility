@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59ca1f38-69e7-4d60-a515-92c451521e90" name="Changes" comment="Codility.task3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/codility/task4/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/codility/task4/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/codility/task4/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,16 +154,5 @@
     <MESSAGE value="new Algorithms" />
     <MESSAGE value="Codility.task3" />
     <option name="LAST_COMMIT_MESSAGE" value="Codility.task3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mariia/codility/task4/Solution.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
