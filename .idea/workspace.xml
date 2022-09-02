@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59ca1f38-69e7-4d60-a515-92c451521e90" name="Changes" comment="Codility.task3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/codility/task41/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/codility/task4new/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/codility/task4/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/codility/task4/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,26 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.com.mariia.codility.task4.Solution">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mariia.codility.task1.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.mariia.codility.task41.Solution" />
       <module name="Codility.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mariia.codility.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.mariia.codility.task1.Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mariia.codility.task1.Solution1" />
-      <module name="Codility.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mariia.codility.task1.*" />
+          <option name="PATTERN" value="com.mariia.codility.task41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.mariia.codility.task4new.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mariia.codility.task4new.Solution" />
+      <module name="Codility.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mariia.codility.task4new.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.com.mariia.codility.task4new.Solution" />
         <item itemvalue="Application.com.mariia.codility.task4.Solution" />
         <item itemvalue="Application.com.mariia.codility.task3.Solution" />
         <item itemvalue="Application.com.mariia.codility.task2.Solution" />
-        <item itemvalue="Application.com.mariia.codility.task1.Solution1" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +162,10 @@
     <MESSAGE value="new Algorithms" />
     <MESSAGE value="Codility.task3" />
     <option name="LAST_COMMIT_MESSAGE" value="Codility.task3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Codility$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1662121499278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mariia.codility.task41.*</FILTER>
+    </SUITE>
   </component>
 </project>
