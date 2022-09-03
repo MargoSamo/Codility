@@ -20,8 +20,6 @@ public class Solution {
                 rez = 0;
                 break;
             }
-
-
         }
         System.out.println(rez);
     }
